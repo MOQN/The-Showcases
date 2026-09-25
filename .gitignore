@@ -6,3 +6,19 @@ node_modules/
 
 # ignore a folder starting with "__"
 __*
+
+# video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.webm
+*.m4v
+*.mpeg
+*.mpg
+*.m2ts
+*.ts
+*.mkv
+*.flv

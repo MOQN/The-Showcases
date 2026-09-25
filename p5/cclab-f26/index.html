@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCLab Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="layout-container">
+    <div class="iframe-wrapper">
+      <iframe id="p5-iframe" scrolling="no" allow="camera; microphone; autoplay; fullscreen"></iframe>
+    </div>
+
+    <aside class="right-panel">
+      <header class="site-header">
+        <h1>Creative Coding Lab</h1>
+        <p>Interactive Media Arts | NYU Shanghai</p>
+        <br><br>
+        <h4 id="project-title"> </h4>
+        <div class="project-tabs" aria-label="Project sets">
+          <button class="project-tab active" type="button" data-project="1">01</button>
+          <button class="project-tab" type="button" data-project="2">02</button>
+          <button class="project-tab" type="button" data-project="3">03</button>
+          <button class="project-tab disabled" type="button" disabled>04</button>
+          <button class="project-tab disabled" type="button" disabled>05</button>
+          <button class="project-tab disabled" type="button" disabled>06</button>
+          <button class="project-tab disabled" type="button" disabled>07</button>
+        </div>
+      </header>
+
+      <div class="menu-container">
+        <ul id="project-list"></ul>
+      </div>
+    </aside>
+  </div>
+  <script src="script.js?v=3"></script>
+</body>
+
+</html>

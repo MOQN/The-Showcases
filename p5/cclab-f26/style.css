@@ -3,14 +3,14 @@
 :root {
   --accent-color: #9333ea;
 
-  --bg-color: #ffffff;
+  --bg-color: #fbfbfb;
   --text-color: #000000;
   --text-muted: #666666;
   --border-color: #e5e5e5;
 
   --hover-bg: #f0f0f0;
   --hover-border: #aaaaaa;
-  --active-bg: #f9ffff;
+  --active-bg: #ffffff;
 }
 
 * {
@@ -38,7 +38,7 @@ body {
   flex-grow: 1;
   position: relative;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
 }
 
 .iframe-wrapper iframe {
@@ -49,7 +49,7 @@ body {
   height: calc(100% + 45px);
   margin-top: -45px;
   border: none;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
 }
 
 .right-panel {
